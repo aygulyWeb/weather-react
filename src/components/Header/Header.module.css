@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.headerBlock {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.headerLogo {
+	font-family: "Montserrat Bold";
+	font-size: 25px;
+	color: #4793ff;
+}
+
+.headerSelect {
+	font-family: "Montserrat Medium";
+	color: #fff;
+	background-color: #4f4f4f;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+}
+.headerSelect.active {
+	background-color: #4793ff;
+}

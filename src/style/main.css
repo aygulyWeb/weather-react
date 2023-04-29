@@ -1,0 +1,25 @@
+@import "./fonts.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.section {
+	background-color: #0d1117;
+	min-height: 100vh;
+}
+.light {
+	background-color: #fff;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 15px;
+}
+.thisday {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}

@@ -1,0 +1,40 @@
+.dayCart {
+	width: 149px;
+	min-height: 200px;
+	border-radius: 10px;
+	background-color: #2e3035;
+	padding: 15px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	gap: 7px;
+}
+.day {
+	font-size: 18px;
+	font-family: "Montserrat Medium";
+	color: #fff;
+}
+.date {
+	font-size: 14px;
+	color: #939cb0;
+	font-family: "Montserrat Medium";
+	font-weight: 400;
+}
+.temp {
+	font-size: 18px;
+	font-family: "Montserrat Medium";
+	color: #fff;
+}
+.feelsLike {
+	font-size: 13px;
+	color: #939cb0;
+	font-family: "Montserrat Medium";
+	font-weight: 400;
+}
+.desc {
+	font-size: 13px;
+	color: #939cb0;
+	font-family: "Montserrat Medium";
+	font-weight: 400;
+}

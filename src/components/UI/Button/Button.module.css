@@ -1,0 +1,12 @@
+.btn {
+	font-family: "Montserrat Medium";
+	color: #fff;
+	background-color: #4f4f4f;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+.active {
+	background-color: #4793ff;
+}
