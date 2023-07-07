@@ -9,10 +9,14 @@ const App = () => {
   const [tenDayData, setTenDayData] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
-  const [theme, setTheme] = React.useState("");
+  const [theme, setTheme] = React.useState("dark-theme");
 
   const [city, setCity] = React.useState("Nukus");
   const [selectDay, setSelectDay] = React.useState(7);
+
+  const toggleChange = () => {
+    setTheme((prev) => (prev === "dark-theme" ? "light-theme" : "dark-theme"));
+  };
 
   const getCurrentWeather = async (name) => {
     try {
@@ -91,11 +95,12 @@ const App = () => {
     setSelectDay,
     handleSelectCity,
     handleSelectDay,
+    toggleChange,
   };
 
   return (
     <AppContext.Provider value={values}>
-      <section className={theme ? "section light" : "section"}>
+      <section className={theme ? "section dark-theme" : "light-theme"}>
         <div className="container">
           <Header />
           <div className="thisday">{currentData && <Current />}</div>

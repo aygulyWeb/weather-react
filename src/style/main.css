@@ -6,11 +6,14 @@
 	box-sizing: border-box;
 }
 .section {
-	background-color: #0d1117;
+	background-color: var(--background-color);
 	min-height: 100vh;
 }
-.light {
-	background-color: #fff;
+.dark-theme {
+	--background-color: #0d1117;
+}
+.light-theme {
+	--background-color: #fff;
 }
 
 .container {

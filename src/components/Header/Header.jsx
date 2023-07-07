@@ -6,7 +6,7 @@ import { useAppContext } from "../../hook/useAppContext";
 import { cities } from "./data/cities";
 
 const Header = () => {
-  const { setTheme, setCity } = useAppContext();
+  const { toggleChange, setCity } = useAppContext();
 
   return (
     <div className={classes.header}>
@@ -15,7 +15,7 @@ const Header = () => {
         <div className={classes.headerLogo}>React Weather</div>
       </div>
       <div className={classes.headerBlock}>
-        <img src={png} alt="logo" onClick={() => setTheme(true)} />
+        <img src={png} alt="logo" onClick={toggleChange} />
         <select
           value={cities.name}
           className={classes.headerSelect}
