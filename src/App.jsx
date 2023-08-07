@@ -12,7 +12,7 @@ const App = () => {
   const [theme, setTheme] = React.useState("dark-theme");
 
   const [city, setCity] = React.useState("Nukus");
-  const [selectDay, setSelectDay] = React.useState(7);
+  const [selectDay, setSelectDay] = React.useState(3);
 
   const toggleChange = () => {
     setTheme((prev) => (prev === "dark-theme" ? "light-theme" : "dark-theme"));

@@ -7,6 +7,8 @@ const DayCart = () => {
   const { forecast } = daysData;
   const { forecastday } = forecast;
 
+  console.log(daysData);
+  console.log(forecast);
   console.log(forecastday);
 
   return (
